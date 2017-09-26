@@ -1,0 +1,13 @@
+# Inactive user menu items definition
+entity.inactive_user.collection:
+  title: 'Inactive user list'
+  route_name: entity.inactive_user.collection
+  description: 'List Inactive user entities'
+  parent: system.admin_structure
+  weight: 100
+
+inactive_user.admin.structure.settings:
+  title: Inactive user settings
+  description: 'Configure Inactive user entities'
+  route_name: inactive_user.settings
+  parent: system.admin_structure

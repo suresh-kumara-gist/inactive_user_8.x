@@ -1,0 +1,5 @@
+entity.inactive_user.add_form:
+  route_name: entity.inactive_user.add_form
+  title: 'Add Inactive user'
+  appears_on:
+    - entity.inactive_user.collection

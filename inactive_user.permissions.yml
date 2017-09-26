@@ -1,0 +1,19 @@
+add inactive user entities:
+  title: 'Create new Inactive user entities'
+
+administer inactive user entities:
+  title: 'Administer Inactive user entities'
+  description: 'Allow to access the administration form to configure Inactive user entities.'
+  restrict access: true
+
+delete inactive user entities:
+  title: 'Delete Inactive user entities'
+
+edit inactive user entities:
+  title: 'Edit Inactive user entities'
+
+view published inactive user entities:
+  title: 'View published Inactive user entities'
+
+view unpublished inactive user entities:
+  title: 'View unpublished Inactive user entities'

@@ -1,0 +1,10 @@
+name: Inactive user
+type: module
+description: Automatic handling of inactive users.
+core: 8.x
+package: User
+dependencies:
+  - entity
+  - user
+  - cron
+  - date

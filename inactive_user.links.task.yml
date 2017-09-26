@@ -1,0 +1,21 @@
+# Inactive user routing definition
+inactive_user.settings_tab:
+  route_name: inactive_user.settings
+  title: 'Settings'
+  base_route: inactive_user.settings
+entity.inactive_user.canonical:
+  route_name: entity.inactive_user.canonical
+  base_route: entity.inactive_user.canonical
+  title: 'View'
+
+entity.inactive_user.edit_form:
+  route_name: entity.inactive_user.edit_form
+  base_route: entity.inactive_user.canonical
+  title: Edit
+
+entity.inactive_user.delete_form:
+  route_name:  entity.inactive_user.delete_form
+  base_route:  entity.inactive_user.canonical
+  title: Delete
+  weight: 10
+

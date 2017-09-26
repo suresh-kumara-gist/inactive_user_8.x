@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains inactive_user.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function inactive_user_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the inactive_user module.
+    case 'help.page.inactive_user':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Automatic handling of inactive users.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
